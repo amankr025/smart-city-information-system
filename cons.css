@@ -1,0 +1,16 @@
+table th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  th, td {
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {background-color: rgb(236, 126, 57);}
+  body{
+    background-color: rgb(236, 233, 238);
+  }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+ 
+  background-color: #16b0e8;
+  
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  
+    background-color: white;
+    width: 60%;
+    height: 20%;
+    margin-left: 221px;
+    margin-top: 30px;
+}
+  
+  
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #1c70d7;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: rgb(209, 216, 223);
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.image{
+  
+   height:20%;
+   width: 20%;
+margin-left: 220px;
+   padding: 20px 10px;
+    
+}
+</style>
+</head>
+<body>
+
+<form action="addconstruction.php" method="post">
+   
+    
+  <div class="container">
+    <h1>Add construction Details</h1>
+
+    <hr>
+
+    <label for="state"><b>State</b></label>
+    <input type="text" placeholder="state" name="state" id="email" required>
+
+    <label for="city"><b>city</b></label>
+    <input type="text" placeholder="city" name="city" id="psw" required>
+
+    <label for="Project name"><b>Project Name</b></label>
+    <input type="text" placeholder="Project Name" name="project_name" id="psw-repeat" required>
+    <label for="sector"><b>Sector</b></label>
+    <input type="text" placeholder="sector" name="sector" id="psw-repeat" required>
+    <label for="sector"><b>Project By</b></label>
+    <input type="text" placeholder="project By" name="project_by" id="psw-repeat" required>
+    <label for="sector"><b>Project cost</b></label>
+    <input type="text" placeholder="Project cost" name="project_cost" id="psw-repeat" required>
+    <hr>
+  
+
+    <button type="submit" class="registerbtn">Add_data</button>
+    
+ 
+  
+</form>
+
+
+</body>
+</html>

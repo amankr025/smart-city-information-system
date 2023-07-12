@@ -1,0 +1,113 @@
+
+
+.index2{
+    position:absolute;  
+  background-image:url(image/city2.png);
+  
+   width: 80%;
+   background-repeat: no-repeat;
+ /*background-color: rgb(222, 181, 78);*/
+  }
+  .marq{
+    position: absolute;
+    top: 284px;
+    right: -215px;
+    width: 15%;
+    height: 70%;
+    color: rgb(255, 0, 0);
+    font-size: larger;
+    background-color: aliceblue;
+    border: 1ch black;
+    
+}
+.navbar {
+  overflow: hidden;
+  font-family: Arial;
+  position: absolute;
+  left: 459px;
+  top: 104px;
+}
+
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 24px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(60, 58, 58);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: relative;
+  
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.hr{
+  position: relative;
+    top: 88px;
+    left: -186px;
+    width: 140%;
+    
+    z-index: 2;
+
+
+}
+.label{
+  position: absolute;
+    right: -198px;
+    top: 259px;
+    color: #ab8007;
+    font-size: 20px;
+}
+a{
+  font-size: 20px;
+}
